@@ -1,0 +1,22 @@
+{
+  "name": "random-wiki-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Zachary Boyd <zachary@zacharyboyd.nyc>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23"
+  }
+}
