@@ -6,7 +6,7 @@ const port = Number(process.env.PORT) || 3000;
 
 app.get('/', (req, res) => {
   (async () => {
-    for (const i = 0; i < 50; i++) {
+    for (let i = 0; i < 50; i++) {
       try {
         const resp = await fetch('https://commons.wikimedia.org/wiki/Special:Random/File');
         const text = await resp.text();
